@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
+import Navbar from "./components/navbar/Navbar";
+import { Route, Routes } from "react-router-dom";
 
+function App() {
   return (
     <>
-      <h1>Trippz</h1>
+      <Navbar />
     </>
   );
 }
