@@ -24,10 +24,10 @@ const Navbar = () => {
           {menuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.className} href={item.url}>
+                <Link className={item.className} to={item.url}>
                   <i className={item.icon}></i>
                   {item.title}
-                </a>
+                </Link>
               </li>
             );
           })}
