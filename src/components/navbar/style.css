@@ -12,6 +12,7 @@
   left: 50%;
   transform: translate(-50%);
   z-index: 999;
+  background-color: white;
 }
 
 .nav-logo {
@@ -22,7 +23,6 @@
 
 .nav-logo span {
   color: #01959a;
-  font-size: 3rem;
 }
 
 .nav-menu {
