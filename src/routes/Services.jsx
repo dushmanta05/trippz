@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
+import Footer from "../components/footer/Footer";
+import Trip from "../components/trip/Trip";
+import munnar from "../assets/images/munnar.jpg";
 
 const Services = () => {
   return (
@@ -8,10 +11,12 @@ const Services = () => {
       <Navbar />
       <Hero
         className="hero-mid"
-        heroImg="https://images.unsplash.com/photo-1612871802733-d26bfb7b3da7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        heroImg={munnar}
         title="Services"
         btnClass="hide"
       />
+      <Trip />
+      <Footer />
     </div>
   );
 };

@@ -3,6 +3,8 @@ import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import Destination from "../components/destination/Destination";
 import Trip from "../components/trip/Trip";
+import Footer from "../components/footer/Footer";
+import heroImg from "../assets/images/hero.jpg";
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
       <Navbar />
       <Hero
         className="hero"
-        heroImg="https://images.unsplash.com/photo-1639980290886-6bdd61c7582b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        heroImg={heroImg}
         title="Your Journey Your Story"
         text="Choose Your Favourite Destination"
         btnText="Travel Plan"
@@ -19,6 +21,7 @@ const Home = () => {
       />
       <Destination />
       <Trip />
+      <Footer />
     </div>
   );
 };

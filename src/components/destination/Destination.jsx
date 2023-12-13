@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 import DestinationData from "./DestinationData";
-import kerala1 from "../../assets/images/kerala.jpg";
-import kerala2 from "../../assets/images/kerala-boat.jpg";
-import chilika from "../../assets/images/chilika.jpg";
-import chilika2 from "../../assets/images/deomali-2.jpg";
+import deomali1 from "../../assets/images/deomali.jpg";
+import deomali2 from "../../assets/images/deomali-2.jpg";
+import chilika1 from "../../assets/images/chilika.jpg";
+import chilika2 from "../../assets/images/chilika-2.jpg";
 
 const Destination = () => {
   return (
@@ -12,30 +12,16 @@ const Destination = () => {
       <h1>Popular Destinations</h1>
       <p>Tours give you the opportunity to see a lot, within a time frame.</p>
       <DestinationData
-        heading="Taal Volcano, Batangas"
-        description="One of the most iconic views in Luzon, Mt. Taal boasts a volcano
-            inside a lake inside an island. If you fancy a closer look, the hike
-            up to the crater is a mere 45 minutes, and is easy enough for
-            beginners. Guides will assist you most of the way, and you’ll see
-            the peculiar environment found on an active volcano, including
-            volcanic rocks and steam vents. The hike can be dusty and hot, so
-            plan for an early morning trip, and then unwind with some bulalo
-            before heading back home!"
-        image1={kerala1}
-        image2={kerala2}
+        heading="Deomali, Koraput"
+        description="Deomali, Odisha's tallest peak, offers a scenic trek amidst lush greenery. Ideal for all hikers, the ascent unveils diverse landscapes with local guides ensuring a safe journey. An early start rewards with a sunrise spectacle at the summit. Conquer the peak, savor the triumph, and indulge in local cuisine for a perfect Deomali adventure."
+        image1={deomali1}
+        image2={deomali2}
         className="description-1"
       />
       <DestinationData
-        heading="Taal Volcano, Batangas"
-        description="One of the most iconic views in Luzon, Mt. Taal boasts a volcano
-            inside a lake inside an island. If you fancy a closer look, the hike
-            up to the crater is a mere 45 minutes, and is easy enough for
-            beginners. Guides will assist you most of the way, and you’ll see
-            the peculiar environment found on an active volcano, including
-            volcanic rocks and steam vents. The hike can be dusty and hot, so
-            plan for an early morning trip, and then unwind with some bulalo
-            before heading back home!"
-        image1={chilika}
+        heading="Chilika, Puri"
+        description="Chilika, Odisha's coastal jewel, unveils a vast lagoon paradise. Short boat rides to islands offer a unique ecosystem. Nalabana Bird Sanctuary enchants bird lovers with migratory wonders. Guides ensure a seamless journey through mangrove forests. Opt for early exploration to witness tranquil waters. Chilika is a blend of nature's bounty and cultural richness. Conclude with local seafood delights for a perfect finale."
+        image1={chilika1}
         image2={chilika2}
         className="description-1-reverse"
       />

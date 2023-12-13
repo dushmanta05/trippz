@@ -1,7 +1,9 @@
 import React from "react";
 import "./style.css";
 import TripCard from "./TripCard";
-import indonesia from "../../assets/images/indonesia.jpg";
+import jagannath from "../../assets/images/jagannath.jpg";
+import tikarpada from "../../assets/images/tikarpada.jpg";
+import samaleswari from "../../assets/images/samaleswari.jpg";
 
 const Trip = () => {
   return (
@@ -10,19 +12,19 @@ const Trip = () => {
       <p>You can discover unique destination using Gooogle Maps.</p>
       <div className="all-trip">
         <TripCard
-          image={indonesia}
-          heading="Indonesia"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+          image={jagannath}
+          heading="Shree Mandira"
+          text="Puri Jagannath Temple, in Puri, Odisha, India, is dedicated to Lord Jagannath, a form of Lord Vishnu. A vital pilgrimage site with annual Rath Yatra, it's known for its Kalinga-style architecture, including a towering spire. Devotees believe visiting holds deep spiritual significance."
         />
         <TripCard
-          image={indonesia}
-          heading="Indonesia"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+          image={tikarpada}
+          heading="Tikarpada"
+          text="Satakosia Tikarpada, in Angul district, Odisha, India, is known for scenic beauty and diverse wildlife. Part of the Satakosia Gorge along the Mahanadi River, it offers captivating landscapes and rich flora and fauna. Recognized for ecotourism, it invites exploration through river cruises, bird watching, and wildlife encounters. "
         />
         <TripCard
-          image={indonesia}
-          heading="Indonesia"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+          image={samaleswari}
+          heading="Maa Samalei Mandira"
+          text="Samaleswari Temple, in Sambalpur, Odisha, India, stands as a revered site for its rich history and religious significance. Dedicated to Goddess Samaleswari, it draws pilgrims with its cultural heritage. The temple's unique architecture and spiritual ambiance symbolize deep devotion, making it a cherished destination for devotees and tourists alike."
         />
       </div>
     </div>
