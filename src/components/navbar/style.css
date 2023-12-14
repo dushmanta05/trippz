@@ -16,12 +16,16 @@
 }
 
 .nav-logo {
+  text-decoration: none;
+}
+
+.nav-logo-text {
   color: #222;
   font-size: 2rem;
   cursor: pointer;
 }
 
-.nav-logo span {
+.nav-logo-text span {
   color: #01959a;
 }
 
@@ -96,30 +100,25 @@ button:hover {
     transition: 0.4s ease-in-out;
     border-radius: 10px;
   }
-
   .nav-menu.active {
     left: 0%;
     z-index: -1;
     opacity: 1;
     transition: 0.4s ease-in-out;
   }
-
   .nav-links {
     display: block;
     width: 100%;
     font-size: 1.2rem;
     padding: 2rem 0;
   }
-
   .nav-links:hover {
     background: #01959a;
     transition: none;
   }
-
   button {
     display: none;
   }
-
   .nav-links-signup {
     display: block;
     text-align: center;
@@ -134,15 +133,12 @@ button:hover {
     font-weight: 700;
     letter-spacing: 2px;
   }
-
   .navbar {
     z-index: 99;
   }
-
   .menu-icons {
     display: block;
   }
-
   .menu-icons i {
     font-size: 1.5rem;
     color: #01959a;
