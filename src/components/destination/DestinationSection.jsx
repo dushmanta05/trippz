@@ -1,6 +1,6 @@
 import React from "react";
 
-const DestinationData = (props) => {
+const DestinationSection = (props) => {
   return (
     <div>
       <div className={props.className}>
@@ -17,4 +17,4 @@ const DestinationData = (props) => {
   );
 };
 
-export default DestinationData;
+export default DestinationSection;
