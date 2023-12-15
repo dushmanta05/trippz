@@ -12,9 +12,12 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <h1 className="nav-logo">
-          Trippz<span>.</span>
-        </h1>
+        <a className="nav-logo" href="/">
+          <h1 className="nav-logo-text">
+            Trippz<span>.</span>
+          </h1>
+        </a>
+
         <div className="menu-icons" onClick={handleClick}>
           <i
             className={menuClicked ? "fa-solid fa-bars" : "fa-solid fa-xmark"}

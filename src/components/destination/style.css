@@ -12,6 +12,7 @@
   align-items: center;
   margin-top: 4.5rem;
 }
+
 .description-1-reverse {
   display: flex;
   flex-direction: row-reverse;
@@ -69,12 +70,10 @@
   .description-text {
     width: 100%;
   }
-
   .description-image {
     width: 100%;
     margin: 1.8rem 0;
   }
-
   .description-image img {
     height: 250px;
   }
